@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB9A619626705BBB00FFCC6B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9A619526705BBB00FFCC6B /* AppDelegate.m */; };
+		CB9A619926705BBB00FFCC6B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9A619826705BBB00FFCC6B /* SceneDelegate.m */; };
+		CB9A619C26705BBB00FFCC6B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9A619B26705BBB00FFCC6B /* ViewController.m */; };
+		CB9A619F26705BBB00FFCC6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB9A619D26705BBB00FFCC6B /* Main.storyboard */; };
+		CB9A61A126705BCD00FFCC6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB9A61A026705BCD00FFCC6B /* Assets.xcassets */; };
+		CB9A61A426705BCE00FFCC6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB9A61A226705BCE00FFCC6B /* LaunchScreen.storyboard */; };
+		CB9A61A726705BCE00FFCC6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9A61A626705BCE00FFCC6B /* main.m */; };
+		CB9A61B126705BCF00FFCC6B /* guomiSMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9A61B026705BCF00FFCC6B /* guomiSMTests.m */; };
+		CB9A61BC26705BCF00FFCC6B /* guomiSMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9A61BB26705BCF00FFCC6B /* guomiSMUITests.m */; };
+		CB9A61CC2671E85400FFCC6B /* RSAManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9A61CB2671E85400FFCC6B /* RSAManager.m */; };
+		CB9A61F826733F9700FFCC6B /* GMManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9A61F726733F9700FFCC6B /* GMManager.m */; };
+		CB9A62B32673586000FFCC6B /* GMSm2Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9A61FB2673585C00FFCC6B /* GMSm2Utils.m */; };
+		CB9A62B42673586000FFCC6B /* GMUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9A61FD2673585C00FFCC6B /* GMUtils.m */; };
+		CB9A62B52673586000FFCC6B /* GMSm4Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9A61FE2673585C00FFCC6B /* GMSm4Utils.m */; };
+		CB9A62B62673586000FFCC6B /* GMSm3Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9A62012673585C00FFCC6B /* GMSm3Utils.m */; };
+		CB9A62B72673586000FFCC6B /* GMSm2Bio.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9A62052673585C00FFCC6B /* GMSm2Bio.m */; };
+		CB9A63172673586000FFCC6B /* SM4密码算法.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CB9A628E2673585E00FFCC6B /* SM4密码算法.pdf */; };
+		CB9A63182673586000FFCC6B /* SM2推荐曲线.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CB9A628F2673585E00FFCC6B /* SM2推荐曲线.pdf */; };
+		CB9A63192673586000FFCC6B /* SM2官方文档.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CB9A62902673585E00FFCC6B /* SM2官方文档.pdf */; };
+		CB9A631A2673586000FFCC6B /* SM3杂凑算法.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CB9A62912673585E00FFCC6B /* SM3杂凑算法.pdf */; };
+		F8AF3EF27E8EA432BFE164E4 /* libPods-guomiSM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F286B520D6B0926DD2CA4334 /* libPods-guomiSM.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB9A61AD26705BCF00FFCC6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB9A618926705BBA00FFCC6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB9A619026705BBB00FFCC6B;
+			remoteInfo = guomiSM;
+		};
+		CB9A61B826705BCF00FFCC6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB9A618926705BBA00FFCC6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB9A619026705BBB00FFCC6B;
+			remoteInfo = guomiSM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F607DF596B2EDC570E76614 /* Pods-guomiSM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-guomiSM.debug.xcconfig"; path = "Target Support Files/Pods-guomiSM/Pods-guomiSM.debug.xcconfig"; sourceTree = "<group>"; };
+		BE75B96D074C8747AC6640D9 /* Pods-guomiSM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-guomiSM.release.xcconfig"; path = "Target Support Files/Pods-guomiSM/Pods-guomiSM.release.xcconfig"; sourceTree = "<group>"; };
+		CB9A619126705BBB00FFCC6B /* guomiSM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = guomiSM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB9A619426705BBB00FFCC6B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB9A619526705BBB00FFCC6B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB9A619726705BBB00FFCC6B /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		CB9A619826705BBB00FFCC6B /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		CB9A619A26705BBB00FFCC6B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CB9A619B26705BBB00FFCC6B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CB9A619E26705BBB00FFCC6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB9A61A026705BCD00FFCC6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB9A61A326705BCE00FFCC6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB9A61A526705BCE00FFCC6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB9A61A626705BCE00FFCC6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB9A61AC26705BCF00FFCC6B /* guomiSMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = guomiSMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB9A61B026705BCF00FFCC6B /* guomiSMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = guomiSMTests.m; sourceTree = "<group>"; };
+		CB9A61B226705BCF00FFCC6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB9A61B726705BCF00FFCC6B /* guomiSMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = guomiSMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB9A61BB26705BCF00FFCC6B /* guomiSMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = guomiSMUITests.m; sourceTree = "<group>"; };
+		CB9A61BD26705BCF00FFCC6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB9A61CA2671E85400FFCC6B /* RSAManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSAManager.h; sourceTree = "<group>"; };
+		CB9A61CB2671E85400FFCC6B /* RSAManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSAManager.m; sourceTree = "<group>"; };
+		CB9A61F626733F9700FFCC6B /* GMManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMManager.h; sourceTree = "<group>"; };
+		CB9A61F726733F9700FFCC6B /* GMManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMManager.m; sourceTree = "<group>"; };
+		CB9A61FB2673585C00FFCC6B /* GMSm2Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMSm2Utils.m; sourceTree = "<group>"; };
+		CB9A61FC2673585C00FFCC6B /* GMSm3Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSm3Utils.h; sourceTree = "<group>"; };
+		CB9A61FD2673585C00FFCC6B /* GMUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUtils.m; sourceTree = "<group>"; };
+		CB9A61FE2673585C00FFCC6B /* GMSm4Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMSm4Utils.m; sourceTree = "<group>"; };
+		CB9A61FF2673585C00FFCC6B /* GMSm2Bio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSm2Bio.h; sourceTree = "<group>"; };
+		CB9A62002673585C00FFCC6B /* GMUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUtils.h; sourceTree = "<group>"; };
+		CB9A62012673585C00FFCC6B /* GMSm3Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMSm3Utils.m; sourceTree = "<group>"; };
+		CB9A62022673585C00FFCC6B /* GMSm2Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSm2Utils.h; sourceTree = "<group>"; };
+		CB9A62032673585C00FFCC6B /* GMObjC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMObjC.h; sourceTree = "<group>"; };
+		CB9A62042673585C00FFCC6B /* GMSm4Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSm4Utils.h; sourceTree = "<group>"; };
+		CB9A62052673585C00FFCC6B /* GMSm2Bio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMSm2Bio.m; sourceTree = "<group>"; };
+		CB9A62062673585C00FFCC6B /* GMObjCDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMObjCDef.h; sourceTree = "<group>"; };
+		CB9A628E2673585E00FFCC6B /* SM4密码算法.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "SM4密码算法.pdf"; sourceTree = "<group>"; };
+		CB9A628F2673585E00FFCC6B /* SM2推荐曲线.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "SM2推荐曲线.pdf"; sourceTree = "<group>"; };
+		CB9A62902673585E00FFCC6B /* SM2官方文档.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "SM2官方文档.pdf"; sourceTree = "<group>"; };
+		CB9A62912673585E00FFCC6B /* SM3杂凑算法.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "SM3杂凑算法.pdf"; sourceTree = "<group>"; };
+		F286B520D6B0926DD2CA4334 /* libPods-guomiSM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-guomiSM.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB9A618E26705BBB00FFCC6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8AF3EF27E8EA432BFE164E4 /* libPods-guomiSM.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB9A61A926705BCF00FFCC6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB9A61B426705BCF00FFCC6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81423F0930CBBDFD6BF4537E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F607DF596B2EDC570E76614 /* Pods-guomiSM.debug.xcconfig */,
+				BE75B96D074C8747AC6640D9 /* Pods-guomiSM.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CB9A618826705BBA00FFCC6B = {
+			isa = PBXGroup;
+			children = (
+				CB9A619326705BBB00FFCC6B /* guomiSM */,
+				CB9A61AF26705BCF00FFCC6B /* guomiSMTests */,
+				CB9A61BA26705BCF00FFCC6B /* guomiSMUITests */,
+				CB9A619226705BBB00FFCC6B /* Products */,
+				81423F0930CBBDFD6BF4537E /* Pods */,
+				DCF51E2F76B1B1CF9FECC1BE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CB9A619226705BBB00FFCC6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB9A619126705BBB00FFCC6B /* guomiSM.app */,
+				CB9A61AC26705BCF00FFCC6B /* guomiSMTests.xctest */,
+				CB9A61B726705BCF00FFCC6B /* guomiSMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB9A619326705BBB00FFCC6B /* guomiSM */ = {
+			isa = PBXGroup;
+			children = (
+				CB9A61F92673585C00FFCC6B /* GMObjC-master */,
+				CB9A61CF2672041200FFCC6B /* GMManager */,
+				CB9A61C92671E81A00FFCC6B /* RSAManager */,
+				CB9A619426705BBB00FFCC6B /* AppDelegate.h */,
+				CB9A619526705BBB00FFCC6B /* AppDelegate.m */,
+				CB9A619726705BBB00FFCC6B /* SceneDelegate.h */,
+				CB9A619826705BBB00FFCC6B /* SceneDelegate.m */,
+				CB9A619A26705BBB00FFCC6B /* ViewController.h */,
+				CB9A619B26705BBB00FFCC6B /* ViewController.m */,
+				CB9A619D26705BBB00FFCC6B /* Main.storyboard */,
+				CB9A61A026705BCD00FFCC6B /* Assets.xcassets */,
+				CB9A61A226705BCE00FFCC6B /* LaunchScreen.storyboard */,
+				CB9A61A526705BCE00FFCC6B /* Info.plist */,
+				CB9A61A626705BCE00FFCC6B /* main.m */,
+			);
+			path = guomiSM;
+			sourceTree = "<group>";
+		};
+		CB9A61AF26705BCF00FFCC6B /* guomiSMTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB9A61B026705BCF00FFCC6B /* guomiSMTests.m */,
+				CB9A61B226705BCF00FFCC6B /* Info.plist */,
+			);
+			path = guomiSMTests;
+			sourceTree = "<group>";
+		};
+		CB9A61BA26705BCF00FFCC6B /* guomiSMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB9A61BB26705BCF00FFCC6B /* guomiSMUITests.m */,
+				CB9A61BD26705BCF00FFCC6B /* Info.plist */,
+			);
+			path = guomiSMUITests;
+			sourceTree = "<group>";
+		};
+		CB9A61C92671E81A00FFCC6B /* RSAManager */ = {
+			isa = PBXGroup;
+			children = (
+				CB9A61CA2671E85400FFCC6B /* RSAManager.h */,
+				CB9A61CB2671E85400FFCC6B /* RSAManager.m */,
+			);
+			path = RSAManager;
+			sourceTree = "<group>";
+		};
+		CB9A61CF2672041200FFCC6B /* GMManager */ = {
+			isa = PBXGroup;
+			children = (
+				CB9A61F626733F9700FFCC6B /* GMManager.h */,
+				CB9A61F726733F9700FFCC6B /* GMManager.m */,
+			);
+			path = GMManager;
+			sourceTree = "<group>";
+		};
+		CB9A61F92673585C00FFCC6B /* GMObjC-master */ = {
+			isa = PBXGroup;
+			children = (
+				CB9A61FA2673585C00FFCC6B /* GMObjC */,
+				CB9A628D2673585E00FFCC6B /* 国密官方文档 */,
+			);
+			path = "GMObjC-master";
+			sourceTree = "<group>";
+		};
+		CB9A61FA2673585C00FFCC6B /* GMObjC */ = {
+			isa = PBXGroup;
+			children = (
+				CB9A61FB2673585C00FFCC6B /* GMSm2Utils.m */,
+				CB9A61FC2673585C00FFCC6B /* GMSm3Utils.h */,
+				CB9A61FD2673585C00FFCC6B /* GMUtils.m */,
+				CB9A61FE2673585C00FFCC6B /* GMSm4Utils.m */,
+				CB9A61FF2673585C00FFCC6B /* GMSm2Bio.h */,
+				CB9A62002673585C00FFCC6B /* GMUtils.h */,
+				CB9A62012673585C00FFCC6B /* GMSm3Utils.m */,
+				CB9A62022673585C00FFCC6B /* GMSm2Utils.h */,
+				CB9A62032673585C00FFCC6B /* GMObjC.h */,
+				CB9A62042673585C00FFCC6B /* GMSm4Utils.h */,
+				CB9A62052673585C00FFCC6B /* GMSm2Bio.m */,
+				CB9A62062673585C00FFCC6B /* GMObjCDef.h */,
+			);
+			path = GMObjC;
+			sourceTree = "<group>";
+		};
+		CB9A628D2673585E00FFCC6B /* 国密官方文档 */ = {
+			isa = PBXGroup;
+			children = (
+				CB9A628E2673585E00FFCC6B /* SM4密码算法.pdf */,
+				CB9A628F2673585E00FFCC6B /* SM2推荐曲线.pdf */,
+				CB9A62902673585E00FFCC6B /* SM2官方文档.pdf */,
+				CB9A62912673585E00FFCC6B /* SM3杂凑算法.pdf */,
+			);
+			path = "国密官方文档";
+			sourceTree = "<group>";
+		};
+		DCF51E2F76B1B1CF9FECC1BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F286B520D6B0926DD2CA4334 /* libPods-guomiSM.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB9A619026705BBB00FFCC6B /* guomiSM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB9A61C026705BCF00FFCC6B /* Build configuration list for PBXNativeTarget "guomiSM" */;
+			buildPhases = (
+				8D8DDCC62931CAE9E4EC86FA /* [CP] Check Pods Manifest.lock */,
+				CB9A618D26705BBB00FFCC6B /* Sources */,
+				CB9A618E26705BBB00FFCC6B /* Frameworks */,
+				CB9A618F26705BBB00FFCC6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = guomiSM;
+			productName = guomiSM;
+			productReference = CB9A619126705BBB00FFCC6B /* guomiSM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB9A61AB26705BCF00FFCC6B /* guomiSMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB9A61C326705BCF00FFCC6B /* Build configuration list for PBXNativeTarget "guomiSMTests" */;
+			buildPhases = (
+				CB9A61A826705BCF00FFCC6B /* Sources */,
+				CB9A61A926705BCF00FFCC6B /* Frameworks */,
+				CB9A61AA26705BCF00FFCC6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB9A61AE26705BCF00FFCC6B /* PBXTargetDependency */,
+			);
+			name = guomiSMTests;
+			productName = guomiSMTests;
+			productReference = CB9A61AC26705BCF00FFCC6B /* guomiSMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB9A61B626705BCF00FFCC6B /* guomiSMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB9A61C626705BCF00FFCC6B /* Build configuration list for PBXNativeTarget "guomiSMUITests" */;
+			buildPhases = (
+				CB9A61B326705BCF00FFCC6B /* Sources */,
+				CB9A61B426705BCF00FFCC6B /* Frameworks */,
+				CB9A61B526705BCF00FFCC6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB9A61B926705BCF00FFCC6B /* PBXTargetDependency */,
+			);
+			name = guomiSMUITests;
+			productName = guomiSMUITests;
+			productReference = CB9A61B726705BCF00FFCC6B /* guomiSMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB9A618926705BBA00FFCC6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					CB9A619026705BBB00FFCC6B = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					CB9A61AB26705BCF00FFCC6B = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = CB9A619026705BBB00FFCC6B;
+					};
+					CB9A61B626705BCF00FFCC6B = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = CB9A619026705BBB00FFCC6B;
+					};
+				};
+			};
+			buildConfigurationList = CB9A618C26705BBA00FFCC6B /* Build configuration list for PBXProject "guomiSM" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB9A618826705BBA00FFCC6B;
+			productRefGroup = CB9A619226705BBB00FFCC6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB9A619026705BBB00FFCC6B /* guomiSM */,
+				CB9A61AB26705BCF00FFCC6B /* guomiSMTests */,
+				CB9A61B626705BCF00FFCC6B /* guomiSMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB9A618F26705BBB00FFCC6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB9A63182673586000FFCC6B /* SM2推荐曲线.pdf in Resources */,
+				CB9A61A426705BCE00FFCC6B /* LaunchScreen.storyboard in Resources */,
+				CB9A63172673586000FFCC6B /* SM4密码算法.pdf in Resources */,
+				CB9A631A2673586000FFCC6B /* SM3杂凑算法.pdf in Resources */,
+				CB9A61A126705BCD00FFCC6B /* Assets.xcassets in Resources */,
+				CB9A619F26705BBB00FFCC6B /* Main.storyboard in Resources */,
+				CB9A63192673586000FFCC6B /* SM2官方文档.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB9A61AA26705BCF00FFCC6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB9A61B526705BCF00FFCC6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8D8DDCC62931CAE9E4EC86FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-guomiSM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB9A618D26705BBB00FFCC6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB9A61CC2671E85400FFCC6B /* RSAManager.m in Sources */,
+				CB9A62B42673586000FFCC6B /* GMUtils.m in Sources */,
+				CB9A619C26705BBB00FFCC6B /* ViewController.m in Sources */,
+				CB9A62B32673586000FFCC6B /* GMSm2Utils.m in Sources */,
+				CB9A62B52673586000FFCC6B /* GMSm4Utils.m in Sources */,
+				CB9A62B62673586000FFCC6B /* GMSm3Utils.m in Sources */,
+				CB9A619626705BBB00FFCC6B /* AppDelegate.m in Sources */,
+				CB9A61F826733F9700FFCC6B /* GMManager.m in Sources */,
+				CB9A61A726705BCE00FFCC6B /* main.m in Sources */,
+				CB9A62B72673586000FFCC6B /* GMSm2Bio.m in Sources */,
+				CB9A619926705BBB00FFCC6B /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB9A61A826705BCF00FFCC6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB9A61B126705BCF00FFCC6B /* guomiSMTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB9A61B326705BCF00FFCC6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB9A61BC26705BCF00FFCC6B /* guomiSMUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB9A61AE26705BCF00FFCC6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB9A619026705BBB00FFCC6B /* guomiSM */;
+			targetProxy = CB9A61AD26705BCF00FFCC6B /* PBXContainerItemProxy */;
+		};
+		CB9A61B926705BCF00FFCC6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB9A619026705BBB00FFCC6B /* guomiSM */;
+			targetProxy = CB9A61B826705BCF00FFCC6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB9A619D26705BBB00FFCC6B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB9A619E26705BBB00FFCC6B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB9A61A226705BCE00FFCC6B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB9A61A326705BCE00FFCC6B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB9A61BE26705BCF00FFCC6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CB9A61BF26705BCF00FFCC6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB9A61C126705BCF00FFCC6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F607DF596B2EDC570E76614 /* Pods-guomiSM.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7BZ754TMJ2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/guomiSM/GMObjC-master/Example/Pods/GMOpenSSL/GMOpenSSL",
+					"$(PROJECT_DIR)/guomiSM/GMObjC-master/GMObjCFramework/GMObjCFramework",
+				);
+				INFOPLIST_FILE = guomiSM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.guomiSM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB9A61C226705BCF00FFCC6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE75B96D074C8747AC6640D9 /* Pods-guomiSM.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7BZ754TMJ2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/guomiSM/GMObjC-master/Example/Pods/GMOpenSSL/GMOpenSSL",
+					"$(PROJECT_DIR)/guomiSM/GMObjC-master/GMObjCFramework/GMObjCFramework",
+				);
+				INFOPLIST_FILE = guomiSM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.guomiSM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CB9A61C426705BCF00FFCC6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = guomiSMTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.guomiSMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/guomiSM.app/guomiSM";
+			};
+			name = Debug;
+		};
+		CB9A61C526705BCF00FFCC6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = guomiSMTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.guomiSMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/guomiSM.app/guomiSM";
+			};
+			name = Release;
+		};
+		CB9A61C726705BCF00FFCC6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = guomiSMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.guomiSMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = guomiSM;
+			};
+			name = Debug;
+		};
+		CB9A61C826705BCF00FFCC6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = guomiSMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.guomiSMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = guomiSM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB9A618C26705BBA00FFCC6B /* Build configuration list for PBXProject "guomiSM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB9A61BE26705BCF00FFCC6B /* Debug */,
+				CB9A61BF26705BCF00FFCC6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB9A61C026705BCF00FFCC6B /* Build configuration list for PBXNativeTarget "guomiSM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB9A61C126705BCF00FFCC6B /* Debug */,
+				CB9A61C226705BCF00FFCC6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB9A61C326705BCF00FFCC6B /* Build configuration list for PBXNativeTarget "guomiSMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB9A61C426705BCF00FFCC6B /* Debug */,
+				CB9A61C526705BCF00FFCC6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB9A61C626705BCF00FFCC6B /* Build configuration list for PBXNativeTarget "guomiSMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB9A61C726705BCF00FFCC6B /* Debug */,
+				CB9A61C826705BCF00FFCC6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB9A618926705BBA00FFCC6B /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - GMOpenSSL (2.2.3)
+
+DEPENDENCIES:
+  - GMOpenSSL
+
+SPEC REPOS:
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - GMOpenSSL
+
+SPEC CHECKSUMS:
+  GMOpenSSL: 31e201eaebdf4dd876cdd95a4be9ed02686d86ce
+
+PODFILE CHECKSUM: d3ca34191d3437a6661beb601e23267f0cccc0e1
+
+COCOAPODS: 1.10.1
